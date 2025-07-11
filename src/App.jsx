@@ -3,7 +3,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div>Hello, Deependra and Ayushman</div>
+      
     </>
   );
 }

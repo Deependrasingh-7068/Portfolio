@@ -1,6 +1,6 @@
 /* Navbar.css */
 
-nav {
+.main-nav-container {
   background-color: #1e1e2f;
   color: white;
   display: flex;
@@ -9,7 +9,7 @@ nav {
   padding: 15px 40px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   position: sticky;
-  top: 23px;
+  top: 23;
   z-index: 100;
 }
 
@@ -28,7 +28,7 @@ nav {
   padding: 0;
 }
 
-.nav-container ul li a {
+.nav-container ul li {
   text-decoration: none;
   color: #f0f0f0;
   font-weight: 500;
@@ -36,7 +36,7 @@ nav {
   padding-bottom: 4px;
 }
 
-.nav-container ul li a:hover {
+.nav-container ul li:hover {
   color: #00bcd4;
   border-bottom: 2px solid #00bcd4;
 }
