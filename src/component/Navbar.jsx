@@ -3,12 +3,12 @@ import './Navbar.css';
 function Navbar() {
   return (
       <>
-    <nav>
+    <nav className='main-nav-container'>
         <div className='nav-heading'>
             <h1>My Portfolio</h1>
             
             </div>
-       <div className='nav-continaer'>
+       <div className='nav-container'>
 
         <ul>
           <li>
