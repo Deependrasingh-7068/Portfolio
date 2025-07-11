@@ -1,26 +1,36 @@
 /* Navbar.css */
 
+/* Main navbar container */
 .main-nav-container {
-  background-color: #1e1e2f;
-  color: white;
+  background-color: #0b132b; /* Oxford Blue */
+  color: #fefefe;            /* Seashell White text */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   position: sticky;
-  
+  top: 0;
   z-index: 100;
-      margin-top: 25px;
+  margin-top: 25px;
 }
 
-.nav-heading h1 {
+/* Logo / Heading style */
+.nav-heading span {
   margin: 0;
   font-size: 28px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  color: #ff6f00; /* Deep Orange */
 }
 
+/* Optional second span style (if using two spans in heading) */
+span:nth-child(2) {
+  color: #ffa726; /* Light Orange */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation links container */
 .nav-container ul {
   list-style-type: none;
   display: flex;
@@ -29,21 +39,25 @@
   padding: 0;
 }
 
+/* Individual navigation item */
 .nav-container ul li {
-  text-decoration: none;
-  color: #f0f0f0;
+  color: #fefefe; /* Text color */
   font-weight: 500;
+  letter-spacing: 1px;
   transition: color 0.3s, border-bottom 0.3s;
   padding-bottom: 4px;
+  cursor: pointer;
 }
 
+/* Hover effect for nav items */
 .nav-container ul li:hover {
-  color: #00bcd4;
-  border-bottom: 2px solid #00bcd4;
+  color: #ff6f00;               /* Deep Orange */
+  border-bottom: 2px solid #ffa726; /* Light Orange underline */
 }
 
+/* Responsive (mobile) styles */
 @media (max-width: 768px) {
-  nav {
+  .main-nav-container {
     flex-direction: column;
     align-items: flex-start;
   }
