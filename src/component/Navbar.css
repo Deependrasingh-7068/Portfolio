@@ -2,8 +2,8 @@
 
 /* Main navbar container */
 .main-nav-container {
-  background-color: #0b132b; /* Oxford Blue */
-  color: #fefefe;            /* Seashell White text */
+  background-color: #AEC8A4; /* Oxford Blue */
+  color: #8A784E;            /* Seashell White text */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,12 +21,12 @@
   font-size: 28px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
-  color: #ff6f00; /* Deep Orange */
+  color: #8A784E; /* Deep Orange */
 }
 
 /* Optional second span style (if using two spans in heading) */
 span:nth-child(2) {
-  color: #ffa726; /* Light Orange */
+  color: #3B3B1A; /* Light Orange */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -41,7 +41,7 @@ span:nth-child(2) {
 
 /* Individual navigation item */
 .nav-container ul li {
-  color: #fefefe; /* Text color */
+  color: #8A784E; /* Text color */
   font-weight: 500;
   letter-spacing: 1px;
   transition: color 0.3s, border-bottom 0.3s;
@@ -51,7 +51,7 @@ span:nth-child(2) {
 
 /* Hover effect for nav items */
 .nav-container ul li:hover {
-  color: #ff6f00;               /* Deep Orange */
+  color: #282812;               /* Deep Orange */
   border-bottom: 2px solid #ffa726; /* Light Orange underline */
 }
 
