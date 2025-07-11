@@ -9,8 +9,9 @@
   padding: 15px 40px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   position: sticky;
-  top: 23;
+  
   z-index: 100;
+      margin-top: 25px;
 }
 
 .nav-heading h1 {
