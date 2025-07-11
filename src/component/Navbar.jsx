@@ -4,7 +4,12 @@ function Navbar() {
   return (
       <>
     <nav>
-        <h1>My Portfolio</h1>
+        <div className='nav-heading'>
+            <h1>My Portfolio</h1>
+            
+            </div>
+       <div className='nav-continaer'>
+
         <ul>
           <li>
             <a href="#about">About</a>
@@ -16,6 +21,9 @@ function Navbar() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+       </div>
+
+       
     </nav>
       </>
   );
