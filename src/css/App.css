@@ -10,7 +10,7 @@ body {
   /* background-color: #48886b; */
   color: #ffffff;
   scroll-behavior: smooth;
-  background-image:url(./assets/file_00000000798061f8ac4ebce7a3e700e2.png);
+  background-image:url("../assets/file_00000000798061f8ac4ebce7a3e700e2.png");
   background-size: cover; 
   background-position:left;     
   /* margin-top:20%; */

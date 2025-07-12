@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
-import "./css/App.css"; //
+ import './CSS/App.css' ;//
 import Image from "./Image"; // Adjust the import path as necessary
 
 function App() {
