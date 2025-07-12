@@ -8,14 +8,13 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
  import './CSS/App.css' ;//
+ import './css/index.css'; // Importing global styles
 import Image from "./Image"; // Adjust the import path as necessary
 
 function App() {
 
   return (
     <Router>
-      
-
 
       <Navbar />
       <Routes>

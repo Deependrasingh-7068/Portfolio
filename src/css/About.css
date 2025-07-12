@@ -1,0 +1,15 @@
+.img-main {
+  margin: 20px;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-image: url("../assets/Adobe.png");
+  background-size: cover;
+  background-position: left;
+  margin-top: 20%;
+  background-position-x: px;
+  background-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 50%;
+  height: 52%;
+}
