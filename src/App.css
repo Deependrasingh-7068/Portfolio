@@ -1,0 +1,148 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #48886b;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  background-image:url(./assets/file_00000000798061f8ac4ebce7a3e700e2.png);
+  background-size: cover; 
+  background-position:left;     
+  /* margin-top:20%; */
+  background-position-x:300px;
+  background-blend-mode:normal;  
+}
+
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #161b22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #58a6ff;
+}
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  color: #c9d1d9;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #58a6ff;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #8b949e;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+.hero-buttons button {
+  margin: 0 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.hero-buttons .btn-primary {
+  background-color: #238636;
+  color: white;
+}
+
+.hero-buttons .btn-primary:hover {
+  background-color: #2ea043;
+  transform: scale(1.05);
+}
+
+.hero-buttons .btn-outline {
+  background-color: transparent;
+  border: 2px solid #5988bd;
+  color: #58a6ff;
+}
+
+.hero-buttons .btn-outline:hover {
+  background-color: #1f6feb;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* About / Projects / Contact Padding */
+section {
+  padding: 4rem 2rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    margin-top: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons button {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}

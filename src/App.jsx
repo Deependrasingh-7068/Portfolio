@@ -5,10 +5,19 @@ import About from "./pages/About";
 import Projects from "./pages/Project";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import clsx from "clsx";
+import "./App.css"; // 
+import Image from "./Image"; // Adjust the import path as necessary
 
 function App() {
+  <Image
+     src="/src/assets/file_00000000798061f8ac4ebce7a3e700e2.png"
+     alt="Background Image"
+     />
   return (
+    
     <Router>
+      
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
