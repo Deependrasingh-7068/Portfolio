@@ -7,15 +7,13 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
- import './CSS/App.css' ;//
- import './css/index.css'; // Importing global styles
-import Image from "./Image"; // Adjust the import path as necessary
+import "./css/App.css";
+import "./css/index.css";
+import Image from "./Image";
 
 function App() {
-
   return (
     <Router>
-
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
