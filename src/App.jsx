@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Project";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 import clsx from "clsx";
 import "./App.css"; // 
 import Image from "./Image"; // Adjust the import path as necessary
@@ -39,7 +40,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
