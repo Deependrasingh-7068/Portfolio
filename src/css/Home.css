@@ -1,7 +1,8 @@
 .home-container {
     margin: 0;
+    position: fixed;
     font-family: "Segoe UI", Roboto, sans-serif;
-    /* background-color: #48886b; */
+    /* background-color: #48886b;   */
     color: #ffffff;
     scroll-behavior: smooth;
 
@@ -9,4 +10,19 @@
     background-size: cover;
     background-position: center right; /* or right 40ch */
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    top: 0px;
+    left: 0px;
+}
+.main-name {
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fefefe; /* Light text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        display: flex
+;
+    position: relative;
+    top: 316px;
 }
