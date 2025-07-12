@@ -51,18 +51,7 @@ function Home() {
       </section>
 
       {/* About Section */}
-      <section
-        id="about"
-        ref={aboutRef}
-        className="px-8 py-20 bg-gray-800"
-      >
-        <h2 className="text-3xl font-bold mb-4">About Me</h2>
-        <p className="text-lg max-w-3xl mx-auto">
-          I'm a passionate BCA student at BBAU with strong knowledge in HTML, CSS,
-          JavaScript, and MERN Stack. I love crafting beautiful UI and interactive
-          experiences on the web.
-        </p>
-      </section>
+      
     </div>
   );
 }
