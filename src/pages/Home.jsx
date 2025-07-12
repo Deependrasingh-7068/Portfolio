@@ -42,7 +42,7 @@ function Home() {
         ref={heroRef}
         className="flex flex-col items-center justify-center h-screen text-center"
       >
-        <h1 className="text-5xl font-extrabold main-name">Hi, I'm Deependra 👋</h1>
+        <h1 className="text-5xl font-extrabold main-name">Hi, I'm Deependra</h1>
         <p className="mt-4 text-xl">Frontend Developer | MERN Stack </p>
         <div className="mt-6 space-x-4">
           <Button className="btn-primary">Download Resume</Button>

@@ -2,7 +2,7 @@
 
 /* Main navbar container */
 .main-nav-container {
-  background-color: #AEC8A4; /* Oxford Blue */
+  /* background-color: #AEC8A4; Oxford Blue */
   color: #8A784E;            /* Seashell White text */
   display: flex;
   justify-content: space-between;
@@ -51,7 +51,7 @@ span:nth-child(2) {
 
 /* Main navigation container */
 .main-nav-container {
-  background-color: #0b132b;  /* Deep dark blue */
+  /* background-color: #0b132b;  Deep dark blue */
   color: #fefefe;             /* Light text */
   display: flex;
   justify-content: space-between;

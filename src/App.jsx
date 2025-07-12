@@ -9,14 +9,29 @@ import clsx from "clsx";
 import "./App.css"; // 
 import Image from "./Image"; // Adjust the import path as necessary
 
+
 function App() {
   <Image
-     src="/src/assets/file_00000000798061f8ac4ebce7a3e700e2.png"
+     src="/src/assets/file_00000000798061f8ac4ebce7a3e700e2.png" 
      alt="Background Image"
      />
   return (
     
     <Router>
+      <Image
+      style={
+
+        {
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1, 
+        }
+      }
+      
+      />
       
       <Navbar />
       <Routes>
