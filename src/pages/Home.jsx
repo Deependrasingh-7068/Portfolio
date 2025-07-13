@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Button } from "@/component/ui/Button";
 import Image from "@/Image";
-import "../CSS/Home.css"; 
+import "../css/Home.css"; 
 
 
 gsap.registerPlugin(ScrollTrigger);

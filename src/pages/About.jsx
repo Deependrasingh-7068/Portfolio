@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../CSS/About.css";
+import "../css/About.css";
 import Adobe from "../assets/Adobe.png";
 
 function About() {
