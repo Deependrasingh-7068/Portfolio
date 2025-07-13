@@ -1,33 +1,27 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "../CSS/About.css";
 import Adobe from "../assets/Adobe.png";
 
 function About() {
-  useEffect(() => {
-    // Set new background position on component mount
-    document.body.style.setProperty("--bg-pos-x", "right");
-    document.body.style.setProperty("--bg-pos-y", "top");
+  const [animate, setAnimate] = useState(false);
 
-    // Optional: Reset when leaving the component
-    return () => {
-      document.body.style.setProperty("--bg-pos-x", "left");
-      document.body.style.setProperty("--bg-pos-y", "right");
-      
-    };
+  useEffect(() => {
+    // Add a short delay before starting animation
+    const timeout = setTimeout(() => setAnimate(true), 100);
+
+    return () => clearTimeout(timeout); // cleanup
   }, []);
 
   return (
+    <>
+      <span className={`img1 ${animate ? "animate-img" : ""}`}>
+        <img src={Adobe} alt="img1" />
+      </span>
 
-    <>  
-    <span className="img1" >
-      <img src={Adobe} alt="img1" />
-
-    </span>
-
-    <div className="about-container">
-      <h1>About me</h1>
-    </div>
-  </>
+      <div className="about-container">
+        <h1>About me</h1>
+      </div>
+    </>
   );
 }
 

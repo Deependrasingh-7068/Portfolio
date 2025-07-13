@@ -1,26 +1,32 @@
+body {
+  background-image: url("../assets/without_Object.png");
+  background-color: rgb(12, 10, 10);
+  color: white;
+}
+
 .about-container {
   margin: 20px;
   padding: 0;
   width: auto;
   height: 100%;
 }
-body {
-  background-image: url("../assets/without_Object.png");
-  background-color: rgb(12, 10, 10);
 
-  color: white;
-}
+/* Initial state: center and zoomed in */
 .img1 {
-  width: auto;
-  height: auto;
-
-  bottom: 0px;
   position: fixed;
-  display: flex;
-  top: 0px;
-  left: 250px;
-  transform: scale(1.4);
-  transition: background-position 1s ease-in-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: 
+    top 1.2s ease-in-out,
+    left 1.2s ease-in-out,
+    transform 1.2s ease-in-out;
+  z-index: 10;
+}
 
-  /* z-index: 1; */
+/* Animated state: right side and scaled down (zoomed out) */
+.animate-img {
+  top: 70%;
+  left: 80%; /* Adjust how far right you want */
+  transform: translate(-50%, -50%) scale(0.5);
 }
