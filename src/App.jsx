@@ -6,10 +6,11 @@ import Projects from "./pages/Project";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import "./CSS/About.css";
 
 import "./css/App.css";
 import "./css/index.css";
-import Image from "./Image";
+
 
 function App() {
   return (

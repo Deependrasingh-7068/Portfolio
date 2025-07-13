@@ -1,15 +1,26 @@
-.img-main {
+.about-container {
   margin: 20px;
   padding: 0;
-  scroll-behavior: smooth;
-  background-image: url("../assets/Adobe.png");
-  background-size: cover;
-  background-position: left;
-  margin-top: 20%;
-  background-position-x: px;
-  background-blend-mode: normal;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 50%;
-  height: 52%;
+  width: auto;
+  height: 100%;
+}
+body {
+  background-image: url("../assets/without_Object.png");
+  background-color: rgb(12, 10, 10);
+
+  color: white;
+}
+.img1 {
+  width: auto;
+  height: auto;
+
+  bottom: 0px;
+  position: fixed;
+  display: flex;
+  top: 0px;
+  left: 250px;
+  transform: scale(1.4);
+  transition: background-position 1s ease-in-out;
+
+  /* z-index: 1; */
 }
