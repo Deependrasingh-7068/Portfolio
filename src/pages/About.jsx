@@ -19,7 +19,9 @@ function About() {
       </span>
 
       <div className="about-container">
-        <h1>About me</h1>
+         <span className="stroke-text">About</span> <span className="filled-text">me</span>
+
+         
       </div>
     </>
   );

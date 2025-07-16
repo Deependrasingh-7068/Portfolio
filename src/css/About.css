@@ -1,15 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Keania+One&display=swap');
+
 body {
   background-image: url("../assets/without_Object.png");
   background-color: rgb(12, 10, 10);
   color: white;
+
 }
 
 .about-container {
-  margin: 20px;
-  padding: 0;
-  width: auto;
-  height: 100%;
+
+  font-size: 2.5rem;
+    width: 50%;
+    display: flex;
+    position: relative;
+    left: 253px;
+    top: 57px;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* stroke  */
+  
+  .stroke-text {
+    color: transparent;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: "Jockey One", sans-serif;
+    -webkit-text-stroke: 0.2px rgb(255, 229, 99); /* gold stroke */
+    letter-spacing: 4px;
+    text-shadow: 0 0 5px rgba(255, 229, 99, 0.6), 0 0 10px rgba(255, 229, 99, 0.4);
+    animation: stroke-glow 2s infinite ease-in-out;
+  }
+  
+  .filled-text {
+    color: rgb(255, 166, 0);
+    font-family: "Jockey One", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    font-family: "Jockey One", sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 0 0 6px rgb(255, 166, 0), 0 0 12px rgb(180, 92, 41);
+  animation: fill-glow 2s infinite ease-in-out;
 }
+
+/* Glow animation for stroke text */
+@keyframes stroke-glow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 229, 99, 0.5), 0 0 10px rgba(255, 229, 99, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 12px rgba(255, 229, 99, 0.8), 0 0 20px rgba(255, 229, 99, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 229, 99, 0.5), 0 0 10px rgba(255, 229, 99, 0.3);
+  }
+}
+
+/* Glow animation for filled text */
+@keyframes fill-glow {
+  0% {
+    text-shadow: 0 0 6px rgb(255, 166, 0), 0 0 12px rgb(229, 116, 22);
+  }
+  50% {
+    text-shadow: 0 0 10px rgb(255, 166, 0), 0 0 20px rgb(255, 100, 0);
+  }
+  100% {
+    text-shadow: 0 0 6px rgb(255, 166, 0), 0 0 12px rgb(255, 140, 0);
+  }
+}
+
 
 /* Initial state: center and zoomed in */
 .img1 {
@@ -26,7 +88,7 @@ body {
 
 /* Animated state: right side and scaled down (zoomed out) */
 .animate-img {
-  top: 70%;
+  top: 50%;
   left: 80%; /* Adjust how far right you want */
-  transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.8);
 }

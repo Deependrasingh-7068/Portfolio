@@ -46,8 +46,8 @@ function Home() {
         <h1 className="text-5xl font-extrabold main-name">Hi, I'm Deependra</h1>
         <p className="mt-4 text-xl">Frontend Developer | MERN Stack </p>
         <div className="mt-6 space-x-4">
-          <Button className="btn-primary">Download Resume</Button>
-          <Button variant="outline" className="border-teal-500 text-teal-400 hover:bg-teal-700">Contact Me</Button>
+          <Button className="download-btn">Download Resume</Button>
+          <Button variant="outline" className="contact-btn">Contact Me</Button>
         </div>
       </section>
 
